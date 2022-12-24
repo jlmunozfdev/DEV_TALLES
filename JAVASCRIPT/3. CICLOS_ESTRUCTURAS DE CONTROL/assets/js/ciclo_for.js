@@ -19,3 +19,5 @@ console.warn('Ciclo For of'); //Se suele nombrar a las variables en singular
 for ( let hero of heroes ) {
     console.log( hero );
 }
+
+//
