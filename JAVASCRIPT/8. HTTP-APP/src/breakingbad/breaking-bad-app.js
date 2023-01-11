@@ -4,7 +4,7 @@
  */
 const fetchQuote = async() => {
     
-    const res = await fetch('https://www.breakingbadapi.com/api/quote/random');
+    const res = await fetch('https://api.breakingbadquotes.xyz/v1/quotes');
     const data = await res.json();
 
     console.log(data[0]);
